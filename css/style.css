@@ -1,10 +1,11 @@
-*{
-    font-family: cursive;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
     margin-top: 4rem;
     background-color: aliceblue;
+    height: 200vh;
 }
 
 /* navbar */
@@ -60,6 +61,13 @@ body {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    .nama {
+        display: flex;
+        margin-left: 0.5rem;
+    }
+}
+
 /* navbar end */
 
 .foto {
@@ -69,12 +77,4 @@ body {
 .foto img {
     user-select: none;
     margin-top: 2rem;
-}
-
-.waves {
-    /* display: flex; */
-    /* position: fixed; */
-    /* top: 0; */
-    /* right: 0; */
-    /* z-index: 0; */
 }
