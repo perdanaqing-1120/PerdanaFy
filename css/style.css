@@ -78,3 +78,12 @@ body {
     user-select: none;
     margin-top: 2rem;
 }
+
+/* projects */
+
+.kartu-projects {
+    display: flex;
+    justify-content: center;
+}
+
+/* projects end*/
