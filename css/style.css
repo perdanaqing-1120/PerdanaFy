@@ -4,6 +4,7 @@ body {
     font-style: normal;
     margin-top: 4rem;
     background-color: aliceblue;
+    height: 300vh;
 }
 
 /* navbar */
@@ -85,3 +86,6 @@ body {
 }
 
 /* projects end*/
+
+/* contact */
+/* contact end */
