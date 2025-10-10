@@ -1,0 +1,7 @@
+.kartu-projects {
+    transition: 0.5s ease-in-out;
+}
+
+.kartu-projects:hover {
+    scale: 1.1;
+}
