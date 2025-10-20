@@ -1,3 +1,19 @@
+/* navbar */
+.burger-btn:hover {
+    border: #5b9bfc;
+}
+
+.burger-btn:active {
+    scale: 1.1;
+}
+
+.navbar-btn:hover {
+    text-decoration: underline;
+    background-color: #2279fd;
+}
+/* navbar end */
+
+/* project */
 .kartu-projects {
     transition: 0.5s ease-in-out;
 }
@@ -5,3 +21,4 @@
 .kartu-projects:hover {
     scale: 1.05;
 }
+/* project end*/

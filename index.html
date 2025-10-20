@@ -4,14 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+
+  <!-- Chewy font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+
+  <!-- roboto font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/animasi.css" />
   <title>portfolio</title>
@@ -21,7 +32,8 @@
   <header>
     <nav class="navbar bg-primary border-bottom border-light" data-bs-theme="white">
       <div class="container-fluid">
-        <a class="navbar-brand text-white nama" href="https://maps.app.goo.gl/HaGpJhSn9ccoSQ9u7">Achmad rezky
+        <a class="navbar-brand text-white roboto-font nama" href="https://maps.app.goo.gl/HaGpJhSn9ccoSQ9u7">Achmad
+          rezky
           perdana</a>
         <button class="bg-white burger-btn" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -40,7 +52,7 @@
               <a class="nav-link navbar-btn" href="#projects" style="color: #ffff">projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navbar-btn" href="#contact" style="color: #ffff">Contact</a>
+              <a class="nav-link navbar-btn border-bottom" href="#contact" style="color: #ffff">Contact</a>
             </li>
             <li class="nav-item dropdown">
               <a style="color: #ffff" class="nav-link dropdown-toggle navbar-btn" href="#" role="button"
@@ -52,10 +64,12 @@
                     href="https://www.instagram.com/perdana_911?igsh=MWJ1MnhzZHE0MHQydw==">Instagram</a></li>
                 <li><a class="dropdown-item" href="#">Facebook</a></li>
                 <li>
+                <li><a class="dropdown-item" href="tel:+62 888 4205 772">Whatsapp</a></li>
+                <li>
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Discord</a>
+                  <a class="dropdown-item" href="https://discord.gg/zStKnD2m">Discord</a>
                 </li>
               </ul>
             </li>
@@ -66,11 +80,11 @@
   </header>
 
   <div class="text-center foto">
-    <img src="/assets/image/jomok.jpg" class="rounded-circle" alt="..." />
+    <img src="/assets/image/jomok.webp" class="rounded-circle" alt="..." />
 
     <!-- Inline level -->
-    <h1>Perdana</h1>
-    <p class="d-inline-block" style="max-width: 350px;">
+    <h1 class="roboto-font">Perdana</h1>
+    <p class="d-inline-block roboto-font" style="max-width: 350px;">
       Hanya seorang siswa SMA1 SOPPENG biasa
     </p>
 
@@ -125,39 +139,38 @@
         <div class="row">
           <div class="col-md mb-3 kartu-projects">
             <div class="card" style="width: 18rem;">
-              <img src="/assets/image/arduino.jpg" class="card-img-top" alt="project1">
+              <img src="/assets/image/arduino.webp" class="card-img-top" alt="project1">
               <div class="card-body">
-                <p class="card-text">Saya ingin membuat mobil mobilan menggunakan sensor
-                  ultrasonic hc-sr04, tapi bahan bahan nya sementara saya pesan, jadi ditunggu ya ;)</p>
+                <p class="card-text">Saya ingin membuat mobil mobilan, tapi bahan bahan nya sementara saya
+                  pesan, jadi ditunggu ya ;)</p>
               </div>
             </div>
           </div>
 
           <div class="col-md mb-3 kartu-projects">
             <div class="card" style="width: 18rem;">
-              <img src="/assets/image/coding.jpg" class="card-img-top" alt="project2">
+              <img src="/assets/image/coding.webp" class="card-img-top" alt="project2">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card’s
-                  content.</p>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium atque ut
+                  magnam a voluptate iure corrupti eaque animi, perferendis hic.</p>
               </div>
             </div>
           </div>
 
           <div class="col-md mb-3 kartu-projects">
             <div class="card" style="width: 18rem;">
-              <img src="/assets/image/github.png" class="card-img-top" alt="project3">
+              <img src="/assets/image/github.webp" class="card-img-top" alt="project3">
               <div class="card-body">
                 <p class="card-text">Saya memiliki masih banyak project yang belum jadi, kamu bisa mengecek github saya.
                 </p>
-                <a href="https://github.com/perdanaqing-1120/beef-v2.git">lihat lebih detail</a>
+                <a href="https://github.com/perdanaqing-1120">lihat lebih detail</a>
               </div>
             </div>
           </div>
 
           <div class="col-md mb-3 kartu-projects">
             <div class="card" style="width: 18rem;">
-              <img src="/assets/image/Keluarga-Berkualitas.jpg" class="card-img-top" alt="project4">
+              <img src="/assets/image/Keluarga-Berkualitas.webp" class="card-img-top" alt="project4">
               <div class="card-body">
                 <p class="card-text">Dan ini adalah project terlama dan tersulit saya, yaitu membahagiakan orangtua.</p>
               </div>
