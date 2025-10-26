@@ -61,6 +61,21 @@ body {
     }
 }
 /* navbar end */
+/* go up */
+    .slideup{
+        background-color: #2279fd;
+        color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+    }
+/* go up end */
 
 .foto {
     background-color: #76a8f3;
